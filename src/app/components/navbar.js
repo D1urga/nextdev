@@ -11,29 +11,49 @@ const Navbar = () => {
     <div>
       <div className={laystyle.outer_div}>
         <h1>NextDev</h1>
-        <ul className={isShowing ? laystyle.ul_list1 : laystyle.ul_list}>
+        <ul className={isShowing ? laystyle.ul_list : laystyle.ul_list1}>
           <li>
-            <Link href="" className={laystyle.link}>
+            <Link
+              href="./flutter"
+              className={laystyle.link}
+              onClick={() => {
+                setIsShowing(!isShowing);
+              }}
+            >
               flutter
             </Link>
           </li>
           <li>
-            <Link href="" className={laystyle.link}>
+            <Link
+              href="./nextjs"
+              className={laystyle.link}
+              onClick={() => {
+                setIsShowing(!isShowing);
+              }}
+            >
               Next
             </Link>
           </li>
+
           <li>
-            <Link href="" className={laystyle.link}>
-              React
-            </Link>
-          </li>
-          <li>
-            <Link href="" className={laystyle.link}>
+            <Link
+              href="./nodejs"
+              className={laystyle.link}
+              onClick={() => {
+                setIsShowing(!isShowing);
+              }}
+            >
               NodeJS
             </Link>
           </li>
           <li>
-            <Link href="" className={laystyle.link}>
+            <Link
+              href="./contact"
+              className={laystyle.link}
+              onClick={() => {
+                setIsShowing(!isShowing);
+              }}
+            >
               ContactUs
             </Link>
           </li>

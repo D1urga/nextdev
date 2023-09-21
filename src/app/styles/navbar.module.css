@@ -1,9 +1,12 @@
 @media screen and (min-width: 900px) {
   .outer_div {
+    top: 0;
+    width: 100%;
+    position: fixed;
     padding-left: 3vw;
     padding-right: 3vw;
     display: flex;
-    background-color: rgb(164, 79, 238);
+    background-color: rgb(7, 139, 172);
     height: 5rem;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +35,7 @@
     transition: all 400ms ease;
   }
   .ul_list li:hover {
-    background-color: rgb(182, 114, 237);
+    background-color: rgb(20, 164, 200);
   }
 
   .menu {
@@ -46,10 +49,13 @@
 }
 @media screen and (max-width: 900px) {
   .outer_div {
+    position: fixed;
+    top: 0;
+    width: 100%;
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
-    background-color: rgb(164, 79, 238);
+    background-color: rgb(7, 139, 172);
     height: 5rem;
     justify-content: space-between;
     align-items: center;
@@ -63,9 +69,9 @@
     position: absolute;
     top: 5.2rem;
     right: 0.2rem;
-    height: 300px;
-    width: 30vw;
-    background-color: rgb(164, 79, 238);
+    height: 400px;
+    width: 35vw;
+    background-color: rgb(6, 90, 126);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -76,13 +82,13 @@
     display: none;
   }
   .ul_list li {
-    padding: 1vh 1.7vw;
+    padding: 20px 40px;
     margin: 0 0.3vw;
     border-radius: 10px;
     transition: all 400ms ease;
   }
   .ul_list li:hover {
-    background-color: rgb(136, 86, 176);
+    background-color: rgb(20, 164, 200);
   }
 
   .menu {

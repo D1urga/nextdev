@@ -1,7 +1,7 @@
 @media screen and (min-width: 900px) {
   .outer_div {
     display: flex;
-    background-color: rgb(164, 79, 238);
+    background-color: rgb(7, 139, 172);
   }
   .inner_div {
     padding: 50px 4vw;
@@ -13,7 +13,7 @@
     transition: all 400ms ease;
   }
   .inner_div:hover {
-    background-color: rgb(151, 55, 235);
+    background-color: rgb(4, 111, 138);
   }
   .outer_div p {
     color: rgb(255, 255, 255);
@@ -41,20 +41,20 @@
     justify-content: center;
     align-items: center;
     height: 70px;
-    background-color: rgb(164, 79, 238);
+    background-color: rgb(7, 139, 172);
   }
   .intro p {
     color: white;
   }
   .intro:hover {
-    background-color: rgb(151, 55, 235);
+    background-color: rgb(4, 111, 138);
   }
 }
 @media screen and (max-width: 900px) and (min-width: 520px) {
   .outer_div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: rgb(164, 79, 238);
+    background-color: rgb(7, 139, 172);
   }
   .inner_div {
     padding: 20px 12vw 0px 20vw;
@@ -90,7 +90,7 @@
     justify-content: center;
     align-items: center;
     height: 70px;
-    background-color: rgb(164, 79, 238);
+    background-color: rgb(7, 139, 172);
   }
   .intro p {
     color: white;
@@ -98,7 +98,7 @@
 }
 @media screen and (max-width: 520px) {
   .outer_div {
-    background-color: rgb(164, 79, 238);
+    background-color: rgb(7, 139, 172);
   }
   .inner_div {
     padding: 10px 18vw 0px 20vw;
@@ -134,7 +134,7 @@
     justify-content: center;
     align-items: center;
     height: 70px;
-    background-color: rgb(164, 79, 238);
+    background-color: rgb(7, 139, 172);
   }
   .intro p {
     color: white;
