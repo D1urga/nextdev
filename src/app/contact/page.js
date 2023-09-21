@@ -13,10 +13,10 @@ const Contact = () => {
         <div className={style.first1}>
           <Image
             src={logo}
-            height={450}
-            width={450}
+            height={300}
+            width={300}
             style={{
-              borderRadius: "225px",
+              borderRadius: "150px",
               marginLeft: "40px",
               objectFit: "cover",
             }}

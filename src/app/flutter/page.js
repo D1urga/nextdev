@@ -13,7 +13,7 @@ const Flutter = () => {
       <h1 className={style.heading}>Build apps for any screen</h1>
       <div className={style.first}>
         <div className={style.first1}>
-          <Image src={logo} height={394} />
+          <Image src={logo} height={300} />
         </div>
         <div className={style.first2}>
           <h1>Flutter on Mobile</h1>
@@ -26,7 +26,7 @@ const Flutter = () => {
       </div>
       <div className={style.second}>
         <div className={style.second1}>
-          <Image src={logo2} height={394} />
+          <Image src={logo2} height={300} />
         </div>
         <div className={style.second2}>
           <h1>Flutter on iOS</h1>
@@ -38,7 +38,7 @@ const Flutter = () => {
       </div>
       <div className={style.first}>
         <div className={style.first1}>
-          <Image src={logo3} height={394} />
+          <Image src={logo3} height={300} />
         </div>
         <div className={style.first2}>
           <h1>Flutter on the Web</h1>
