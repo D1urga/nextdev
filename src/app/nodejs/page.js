@@ -25,7 +25,7 @@ const Nodejs = () => {
       </div>
       <div className={style.second}>
         <div className={style.second1}>
-          <Image src={logo2} height={240} />
+          <Image src={logo2} height={200} />
         </div>
         <div className={style.second2}>
           <h1>Node js framework </h1>
@@ -38,7 +38,7 @@ const Nodejs = () => {
       </div>
       <div className={style.first}>
         <div className={style.first1}>
-          <Image src={logo3} height={280} />
+          <Image src={logo3} height={200} />
         </div>
         <div className={style.first2}>
           <h1>Express Js for simplicity</h1>
